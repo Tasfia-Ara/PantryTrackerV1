@@ -57,6 +57,7 @@ export default function Home() {
   }
   const handleOpen = () => setOpen(true) //function to open
   const handleClose = () => setOpen(false) //function to close
+  const isBrowser = () => typeof window !== undefined
 
   useEffect(()=>{
     updateInventory()
