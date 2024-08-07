@@ -1,39 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**PantryTracker**
 
-## Getting Started
+An inventory management application built with Next.js, Tailwind CSS, Firebase and Material UI. It is deployed on https://pantry-tracker-v1-image-capture.vercel.app/
 
-First, run the development server:
+📱 Features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Add Items Easily: Add items to your pantry using a simple form or by snapping a photo with your device camera (data is stored in Firebase).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+AI-Powered Item Recognition: The photo is processed by the OpenAI Model GPT-4o, which identifies the item in the image and automatically adds to the inventory
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+🛠️ Tech Stack:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+• Next.js: For a fast, server-rendered React application.
 
-## Learn More
+• Firebase: database query and management
 
-To learn more about Next.js, take a look at the following resources:
+• OpenAI Model GPT-4o: For image recognition and ease in adding products to the inventory
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+• Vercel: For a fast continuous deployment and continuous integration (CI/CD)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+• Material UI: For additional UI components and consistency.
 
-## Deploy on Vercel
+I’d love for you all to check it out and share your feedback! If you have any suggestions or run into any issues, please let me know. Your input is invaluable as I continue to improve the app.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# test
-# PantryTrackerV1
-# PantryTrackerV1
